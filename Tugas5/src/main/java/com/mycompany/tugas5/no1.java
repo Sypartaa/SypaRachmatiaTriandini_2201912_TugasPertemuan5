@@ -30,11 +30,9 @@ public class no1 {
         
         System.out.println("Masukkan angka ketiga: ");
         int angka3 = scanner.nextInt();
-        
-        // Memanggil fungsi untuk memeriksa apakah angka-angka tersebut adalah ribuan
-        Ribuan(angka1, angka2, angka3);
 
-        // Menutup objek Scanner
+        Ribuan(angka1, angka2, angka3);
+        
         scanner.close();
     }
 }
