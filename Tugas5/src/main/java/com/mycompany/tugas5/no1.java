@@ -10,8 +10,7 @@ public class no1 {
     
     static void Ribuan(int angka1, int angka2, int angka3) {
         int totalAngka = angka1 * 100 + angka2 * 10 + angka3;
-
-        // Memeriksa apakah angka tersebut adalah ribuan
+        
         if (totalAngka >= 1000 && totalAngka <= 9999) {
             System.out.println("Masukan adalah ribuan.");
         } else {
